@@ -10,8 +10,10 @@
 .icon-stop:before { content: '\e808'; } /* '' */
 .icon-leaf:before { content: '\e809'; } /* '' */
 .icon-flight:before { content: '\e80a'; } /* '' */
+.icon-facebook:before { content: '\f09a'; } /* '' */
 .icon-github-circled:before { content: '\f09b'; } /* '' */
 .icon-lightbulb:before { content: '\f0eb'; } /* '' */
+.icon-github:before { content: '\f113'; } /* '' */
 .icon-google:before { content: '\f1a0'; } /* '' */
 .icon-header:before { content: '\f1dc'; } /* '' */
 .icon-toggle-off:before { content: '\f204'; } /* '' */

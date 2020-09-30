@@ -21,8 +21,10 @@
 .icon-stop { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe808;&nbsp;'); }
 .icon-leaf { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe809;&nbsp;'); }
 .icon-flight { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe80a;&nbsp;'); }
+.icon-facebook { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf09a;&nbsp;'); }
 .icon-github-circled { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf09b;&nbsp;'); }
 .icon-lightbulb { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf0eb;&nbsp;'); }
+.icon-github { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf113;&nbsp;'); }
 .icon-google { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf1a0;&nbsp;'); }
 .icon-header { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf1dc;&nbsp;'); }
 .icon-toggle-off { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf204;&nbsp;'); }
