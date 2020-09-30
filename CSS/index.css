@@ -4,7 +4,7 @@
 
 html, body {
     width: 100%;
-    height: 160%;
+    height: 220%;
     margin: 0;
 }
 
@@ -16,16 +16,13 @@ html, body {
     background-color:  rgb(248,248,248);
 }
 
-/* section */
-.section {
-    flex-grow: 1;
-}
-
+/* section { flex-grow: 1 2 1; } */
 
 /* section1 */
 .section1 {
     background-color: rgb(248,248,248);
     display: flex;
+    flex-grow: 1;
     flex-direction: column;
     justify-content: flex-end;
 }
@@ -39,6 +36,7 @@ header {
     top: 0;
     left: 0;
     display: flex;
+    z-index: 9999;
 }
 
 .home-rat {
@@ -101,7 +99,6 @@ header {
     color: #cba0aa;
     text-decoration: none;
     position: relative;
-    z-index: 2;
 }
 
 .welcome-text-love:hover {
@@ -112,9 +109,9 @@ header {
 /* section1 welcome-image */
 .welcome-image {
     width: 30%;
-    height: 70%;
+    height: 60%;
     position: absolute;
-    top: 10%;
+    top: 5%;
     right: 8%;
     border: 1px solid gray;
     border-radius: 50%;
@@ -128,14 +125,141 @@ header {
 
 /* section2 */
 .section2 {
+    width: 100%;
+    position: relative;
+    flex-grow: 2;
+}    
+
+.section2-background {
     width: 95%;
+    height: 60%;
     background-color: rgb(245,242,240);
+    position: absolute;
+    top: 0;
+    left: 0;
 }
 
+.work {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* section2 main */
+main.cards {
+    width: 75%;
+    height: 85%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.cards-a {
+    width: 47%;
+    height: 45%;
+    position: relative;
+    background-color: #fff;
+    overflow: hidden;
+    backface-visibility: hidden;
+    text-decoration: none;
+    color: #31302f;
+    transition: transform .3s ease, box-shadow .3s ease;
+}
+
+.cards-a:hover {
+    transform: scale( 1.02 );
+    box-shadow: 0px 15px 50px  hsla(0, 0%, 0%, 0.1);
+    
+}
+
+.card-2 {
+    margin-bottom: 7%;
+}
+
+.card-3 {
+    margin-top: 7%;
+}
+
+.card-wrap {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.card-wrap-image {
+    width: 100%;
+    height: 80%;
+}
+
+.card-wrap-image-in {
+    width: 100%;
+    height: 100%;
+}
+
+.card-wrap-bottom-description {
+    width: 100%;
+    height: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card-wrap-bottom-description-wrap {
+    width: 80%;
+    height: 90%;
+    
+}
+
+.card-description-title {
+    color: #222;
+    font-weight: 400;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5em;
+    margin: 3%;
+}
+
+.card-description-body {
+    color: #7f7871;
+    font-weight: 400;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    margin: 3%;
+}
 
 /* section3 */
 .section3 {
     background-color: rgb(248,248,248);
+    flex-grow: 1;
+    position: relative;
+}
+
+.section3-background {
+    width: 95%;
+    height: 100%;
+    background-color: rgb(245,242,240);
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+
+.about {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    
 }
 
 
