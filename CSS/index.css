@@ -1,0 +1,164 @@
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    width: 100%;
+    height: 160%;
+    margin: 0;
+}
+
+.container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color:  rgb(248,248,248);
+}
+
+/* section */
+.section {
+    flex-grow: 1;
+}
+
+
+/* section1 */
+.section1 {
+    background-color: rgb(248,248,248);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+/* section1 header */
+header {
+    width: 100%;
+    height: 125px;
+    padding: 1%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+}
+
+.home-rat {
+    width: 10%;
+    height: 100%;
+}
+
+.rat-image {
+    width: 100%;
+    height: 100%;
+}
+
+.home-nav {
+    width: 90%;
+    height: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.nav-a {
+    text-decoration: none;
+    color: #31302f;
+    margin: 2%;
+}
+
+/* section1 welcome */
+.welcome {
+    width: 100%;
+    height: calc(100% - 125px);
+    padding: 1%;
+    position: relative;
+}
+
+/* section1 welcome-text */
+.welcome-text {
+    width: 40%;
+    position: absolute;
+    top: 15%;
+    left: 8%;
+}
+
+.welcome-text-title {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 3em;
+    margin-bottom: 12px;
+    color: #222;
+    font-weight: 400;
+}
+
+.welcome-text-body {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.3em;
+    margin: 0;
+    color: #222;
+    font-weight: 400
+}
+
+.welcome-text-love {
+    color: #cba0aa;
+    text-decoration: none;
+    position: relative;
+    z-index: 2;
+}
+
+.welcome-text-love:hover {
+    background-color: #faca0c;
+    transition: 2s ease;
+}
+
+/* section1 welcome-image */
+.welcome-image {
+    width: 30%;
+    height: 70%;
+    position: absolute;
+    top: 10%;
+    right: 8%;
+    border: 1px solid gray;
+    border-radius: 50%;
+}
+
+.welcome-image-me {
+    width: 100%;
+    height: 100%;
+}
+
+
+/* section2 */
+.section2 {
+    width: 95%;
+    background-color: rgb(245,242,240);
+}
+
+
+/* section3 */
+.section3 {
+    background-color: rgb(248,248,248);
+}
+
+
+/* media query */
+@media (max-width: 475px) { 
+    .welcome {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+    }
+
+    .welcome-text {
+        position: unset;
+        order: 1;
+        width: 70%;
+    }
+
+    .welcome-image {
+        position: unset;
+        order: 0;
+        width: 60%;
+        height: 30%;
+        border-radius: 50%;
+    }
+ }
