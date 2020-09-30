@@ -1,3 +1,3 @@
 ###
-https://github.com/EasyBAMM/portfolio.com
+https://easybamm.github.io/portfolio/.
 ###
