@@ -149,6 +149,7 @@ ul, li {
 .text-slide li:nth-child(4){animation-delay:6s}
 
 .text-p {
+    font-family: 'Times New Roman', Times, serif;
     font-size: 1.5em;
     margin: 1%;
 }
@@ -212,11 +213,13 @@ ul, li {
 }
 
 .card-in-text-h2 {
+    font-family: Arial, Helvetica, sans-serif;
     text-decoration: underline;
     margin-bottom: 0;
 }
 
 .card-in-text-p {
+    font-family: Arial, Helvetica, sans-serif;
     margin-top: 0;
 }
 
