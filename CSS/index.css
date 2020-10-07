@@ -361,7 +361,16 @@ footer {
 
 /* media query */
 @media (max-width: 475px) { 
+    .section1 {
+        flex-grow: 0.3;
+    }
+
+    header {
+        height: 60px;
+    }
+
     .welcome {
+        height: calc(100% -60px);
         display: flex;
         flex-direction: column;
         align-items: center;
