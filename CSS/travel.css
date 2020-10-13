@@ -200,6 +200,11 @@ ul, li {
     border-radius: 0.5em;
 }
 
+.card-in-empty {
+    display: none;
+}
+
+
 .card-in-text {
     position: absolute;
     bottom: 0;
