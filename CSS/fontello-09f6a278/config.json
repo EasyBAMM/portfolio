@@ -119,6 +119,24 @@
       "css": "github",
       "code": 61715,
       "src": "fontawesome"
+    },
+    {
+      "uid": "7b16b22168e762c88333f465da862098",
+      "css": "ok-1",
+      "code": 59403,
+      "src": "websymbols"
+    },
+    {
+      "uid": "cc8e2a0eff0356811984b84a868524f8",
+      "css": "check-empty",
+      "code": 59404,
+      "src": "elusive"
+    },
+    {
+      "uid": "e2d87e7631c608efe71762a9f4c95e75",
+      "css": "check",
+      "code": 59405,
+      "src": "elusive"
     }
   ]
 }

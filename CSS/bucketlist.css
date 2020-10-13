@@ -106,9 +106,49 @@ header {
 /* section2 */
 .section2 {
     width: 100%;
-    position: relative;
     height: 1100px;
+    background-color: wheat;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }    
+
+.section2-todo {
+    width: 70%;
+    height: 80%;
+    background-color: white;
+    border-radius: 0.5em;
+    overflow: auto;
+}
+
+.todo-title {
+    text-align: center;
+    font-size: 2.5em;
+    font-weight: 600;
+    
+}
+
+.icon-ok-1 { color: red; }
+
+
+ul {
+    list-style: none;
+    padding-left: 15%;
+    padding-right: 15%;
+}
+
+li {
+    list-style: none;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.600);
+    margin-bottom: 3%;
+    font-family: Georgia, "Malgun Gothic", serif;
+    font-size: 1.3em;
+}
+
+.icon-check-empty { color: rgba(0, 0, 0, 0.600); }
+
+
 
 /* section3 */
 .section3 {
@@ -173,4 +213,32 @@ footer {
     .welcome {
         height: calc(100% -60px);
     }
+
+    .section2-todo {
+        width: 90%;
+        height: 80%;
+    }
+    
+    .todo-title {
+        text-align: center;
+        font-size: 1.8em;
+        font-weight: 600;
+        
+    }
+    
+    .icon-ok-1 { color: red; }
+    
+    
+    ul {
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+    
+    li {
+        margin-bottom: 8%;
+        font-family: Georgia, "Malgun Gothic", serif;
+        font-size: 1.1em;
+    }
+    
+    .icon-check-empty { color: rgba(0, 0, 0, 0.600); }
 }
